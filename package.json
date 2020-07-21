@@ -1,0 +1,17 @@
+{
+  "name": "node-gost-crypto",
+  "version": "0.0.0",
+  "description": "Node.js implementation of WebCrypto API interfaces and Public Key Infrastructure for GOST algorithms (Russian Cryptographic Standards)",
+  "repository": "https://github.com/myadzel/node-gost-crypto.git",
+  "author": "Alexander Myadzel <myadzel@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "gost",
+    "crypto",
+    "digest",
+    "streebog",
+    "md_gost94",
+    "streebog256",
+    "streebog512"
+  ]
+}
