@@ -13,5 +13,13 @@
     "md_gost94",
     "streebog256",
     "streebog512"
-  ]
+  ],
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-plugin-babel": "^5.3.1"
+  }
 }
