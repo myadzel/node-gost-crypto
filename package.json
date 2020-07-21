@@ -2,7 +2,10 @@
   "name": "node-gost-crypto",
   "version": "1.0.0",
   "description": "Node.js implementation of WebCrypto API interfaces and Public Key Infrastructure for GOST algorithms (Russian Cryptographic Standards)",
-  "repository": "https://github.com/myadzel/node-gost-crypto.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myadzel/node-gost-crypto.git"
+  },
   "author": "Alexander Myadzel <myadzel@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -21,5 +24,14 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.5.0",
     "eslint-plugin-babel": "^5.3.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/myadzel/node-gost-crypto/issues"
+  },
+  "homepage": "https://github.com/myadzel/node-gost-crypto#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {}
 }
